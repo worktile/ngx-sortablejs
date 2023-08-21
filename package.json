@@ -1,6 +1,6 @@
 {
   "name": "@worktile/ngx-sortablejs",
-  "version": "15.0.0",
+  "version": "16.0.0-next.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -12,8 +12,7 @@
     "e2e": "ng e2e",
     "gh-pages": "git reset && cpr dist/ngx-sortablejs-app docs -d  && cpr docs/index.html docs/404.html && git add docs",
     "gh-pages:apply": "yarn run gh-pages && git commit -m 'docs: update github pages' && git push",
-    "release": "wpm release --release-branch-format release-auto-v{{version}}",
-    "release-next": "wpm release --release-branch-format release-auto-next-v{{version}}",
+    "release": "wpm release --release-branch-format release-v{{version}}",
     "pub-only": "cd dist/ngx-sortablejs && npm publish --access=public",
     "pub": "wpm publish && npm run pub-only"
   },
