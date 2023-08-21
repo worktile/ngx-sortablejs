@@ -1,5 +1,6 @@
 {
   "name": "@worktile/ngx-sortablejs",
+  "version": "15.0.0",
   "keywords": [
     "ngx-sortablejs",
     "angular-sortablejs",
