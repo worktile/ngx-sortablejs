@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [16.0.0](https://github.com/worktile/ngx-sortablejs/compare/v11.1.0...v16.0.0) (2023-08-22)
+
+
+### Features
+
+* upgrade angular 16 ([4ebda3d](https://github.com/worktile/ngx-sortablejs/commit/4ebda3d4ddb1d28afdf627871b54e158ecd9e495))
+
+
+
 # [16.0.0-next.0](https://github.com/worktile/ngx-sortablejs/compare/v11.1.0...v16.0.0-next.0) (2023-08-21)
 
 
