@@ -9,14 +9,12 @@ describe('CrossComponentsMultipleListsComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [
+    imports: [
+        SortablejsModule,
         CrossComponentsMultipleListsComponent,
         ChildComponentComponent,
-      ],
-      imports: [
-        SortablejsModule,
-      ],
-    })
+    ],
+})
       .compileComponents();
   }));
 

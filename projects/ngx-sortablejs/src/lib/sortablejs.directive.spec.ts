@@ -9,20 +9,20 @@ describe('SortablejsDirective', () => {
         <div *ngFor="let item of items">{{item}}</div>
       </div>
     `,
-  })
+    standalone: true,
+    imports: [SortablejsModule],
+})
   class TestComponent1 {
     items = [1, 2, 3, 4, 5];
   }
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [
-        TestComponent1,
-      ],
-      imports: [
+    imports: [
         SortablejsModule,
-      ],
-    }).compileComponents();
+        TestComponent1,
+    ],
+}).compileComponents();
   }));
 
   it('should create', () => {

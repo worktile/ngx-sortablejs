@@ -8,11 +8,11 @@ describe('ChildComponentComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ChildComponentComponent],
-      imports: [
+    imports: [
         SortablejsModule,
-      ],
-    })
+        ChildComponentComponent,
+    ],
+})
       .compileComponents();
   }));
 

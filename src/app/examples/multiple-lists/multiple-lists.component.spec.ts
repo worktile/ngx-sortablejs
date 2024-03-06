@@ -8,11 +8,11 @@ describe('MultipleListsComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [MultipleListsComponent],
-      imports: [
+    imports: [
         SortablejsModule,
-      ],
-    })
+        MultipleListsComponent,
+    ],
+})
       .compileComponents();
   }));
 

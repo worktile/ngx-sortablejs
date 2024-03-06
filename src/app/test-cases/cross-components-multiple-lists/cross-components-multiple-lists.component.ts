@@ -1,9 +1,13 @@
 import { Component } from '@angular/core';
+import { JsonPipe } from '@angular/common';
+import { ChildComponentComponent } from './child-component/child-component.component';
 
 @Component({
-  selector: 'app-cross-components-multiple-lists',
-  templateUrl: './cross-components-multiple-lists.component.html',
-  styleUrls: ['./cross-components-multiple-lists.component.css'],
+    selector: 'app-cross-components-multiple-lists',
+    templateUrl: './cross-components-multiple-lists.component.html',
+    styleUrls: ['./cross-components-multiple-lists.component.css'],
+    standalone: true,
+    imports: [ChildComponentComponent, JsonPipe],
 })
 export class CrossComponentsMultipleListsComponent {
 
