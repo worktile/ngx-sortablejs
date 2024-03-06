@@ -1,10 +1,18 @@
 import { Component } from '@angular/core';
 import {Options} from 'sortablejs';
+import { NgFor, JsonPipe } from '@angular/common';
+import { SortablejsDirective } from '../../../../projects/ngx-sortablejs/src/lib/sortablejs.directive';
 
 @Component({
-  selector: 'app-multiple-lists',
-  templateUrl: './multiple-lists.component.html',
-  styleUrls: ['./multiple-lists.component.css'],
+    selector: 'app-multiple-lists',
+    templateUrl: './multiple-lists.component.html',
+    styleUrls: ['./multiple-lists.component.css'],
+    standalone: true,
+    imports: [
+        SortablejsDirective,
+        NgFor,
+        JsonPipe,
+    ],
 })
 export class MultipleListsComponent {
 

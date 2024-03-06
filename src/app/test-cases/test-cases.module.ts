@@ -5,10 +5,10 @@ import { ChildComponentComponent } from './cross-components-multiple-lists/child
 import { CrossComponentsMultipleListsComponent } from './cross-components-multiple-lists/cross-components-multiple-lists.component';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    SortablejsModule,
-  ],
-  declarations: [CrossComponentsMultipleListsComponent, ChildComponentComponent],
+    imports: [
+        CommonModule,
+        SortablejsModule,
+        CrossComponentsMultipleListsComponent, ChildComponentComponent,
+    ],
 })
 export class TestCasesModule { }

@@ -8,16 +8,14 @@ import { SortableFormArrayComponent } from './sortable-form-array/sortable-form-
 import { SortableWithOptionsComponent } from './sortable-with-options/sortable-with-options.component';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    SortablejsModule,
-    ReactiveFormsModule,
-  ],
-  declarations: [
-    SimpleSortableComponent,
-    SortableWithOptionsComponent,
-    SortableFormArrayComponent,
-    MultipleListsComponent,
-  ],
+    imports: [
+        CommonModule,
+        SortablejsModule,
+        ReactiveFormsModule,
+        SimpleSortableComponent,
+        SortableWithOptionsComponent,
+        SortableFormArrayComponent,
+        MultipleListsComponent,
+    ],
 })
 export class ExamplesModule { }

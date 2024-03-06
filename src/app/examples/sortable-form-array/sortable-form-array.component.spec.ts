@@ -9,12 +9,12 @@ describe('SortableFormArrayComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [SortableFormArrayComponent],
-      imports: [
+    imports: [
         SortablejsModule,
         ReactiveFormsModule,
-      ],
-    })
+        SortableFormArrayComponent,
+    ],
+})
       .compileComponents();
   }));
 

@@ -8,11 +8,11 @@ describe('SimpleSortableComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [SimpleSortableComponent],
-      imports: [
+    imports: [
         SortablejsModule,
-      ],
-    })
+        SimpleSortableComponent,
+    ],
+})
       .compileComponents();
   }));
 
