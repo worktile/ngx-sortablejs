@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NgFor, JsonPipe } from '@angular/common';
+import { JsonPipe } from '@angular/common';
 import { SortablejsDirective } from '../../../../projects/ngx-sortablejs/src/lib/sortablejs.directive';
 
 @Component({
@@ -7,10 +7,9 @@ import { SortablejsDirective } from '../../../../projects/ngx-sortablejs/src/lib
     templateUrl: './simple-sortable.component.html',
     styleUrls: ['./simple-sortable.component.css'],
     imports: [
-        SortablejsDirective,
-        NgFor,
-        JsonPipe,
-    ]
+    SortablejsDirective,
+    JsonPipe
+]
 })
 export class SimpleSortableComponent {
 
