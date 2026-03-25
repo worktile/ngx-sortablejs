@@ -51,6 +51,8 @@
     "@types/sortablejs": "^1.10.2",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
+    "@typescript-eslint/utils": "^7.2.0",
+    "@typescript-eslint/types": "^7.2.0",
     "@worktile/pkg-manager": "^0.0.11",
     "codelyzer": "^6.0.0",
     "coveralls": "^3.0.9",
