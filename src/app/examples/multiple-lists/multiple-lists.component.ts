@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {Options} from 'sortablejs';
-import { NgFor, JsonPipe } from '@angular/common';
+import { JsonPipe } from '@angular/common';
 import { SortablejsDirective } from '../../../../projects/ngx-sortablejs/src/lib/sortablejs.directive';
 
 @Component({
@@ -8,10 +8,9 @@ import { SortablejsDirective } from '../../../../projects/ngx-sortablejs/src/lib
     templateUrl: './multiple-lists.component.html',
     styleUrls: ['./multiple-lists.component.css'],
     imports: [
-        SortablejsDirective,
-        NgFor,
-        JsonPipe,
-    ]
+    SortablejsDirective,
+    JsonPipe
+]
 })
 export class MultipleListsComponent {
 
