@@ -4,6 +4,7 @@
 
 # You can see what browsers were selected by your queries by running:
 #   npx browserslist
+# https://web-platform-dx.github.io/web-features/supported-browsers/?widelyAvailableOnDate=2025-10-20&includeDownstream=false
 
 chrome > 110
 edge > 110
