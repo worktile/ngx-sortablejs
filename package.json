@@ -14,6 +14,7 @@
     "gh-pages:apply": "yarn run gh-pages && git commit -m 'docs: update github pages' && git push",
     "release": "wpm release --release-branch-format release-v{{version}}",
     "pub-only": "cd dist/ngx-sortablejs && npm publish --access=public",
+    "pub-next-only": "cd dist/ngx-sortablejs && npm publish --access=public --tag next",
     "pub": "wpm publish && npm run pub-only"
   },
   "private": false,
