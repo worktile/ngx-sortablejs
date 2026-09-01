@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { JsonPipe } from '@angular/common';
 import { SortablejsDirective } from '../../../../projects/ngx-sortablejs/src/lib/sortablejs.directive';
 
@@ -6,6 +6,7 @@ import { SortablejsDirective } from '../../../../projects/ngx-sortablejs/src/lib
     selector: 'app-simple-sortable',
     templateUrl: './simple-sortable.component.html',
     styleUrls: ['./simple-sortable.component.css'],
+    changeDetection: ChangeDetectionStrategy.Eager,
     imports: [
     SortablejsDirective,
     JsonPipe

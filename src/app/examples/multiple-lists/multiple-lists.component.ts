@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import {Options} from 'sortablejs';
 import { JsonPipe } from '@angular/common';
 import { SortablejsDirective } from '../../../../projects/ngx-sortablejs/src/lib/sortablejs.directive';
@@ -7,6 +7,7 @@ import { SortablejsDirective } from '../../../../projects/ngx-sortablejs/src/lib
     selector: 'app-multiple-lists',
     templateUrl: './multiple-lists.component.html',
     styleUrls: ['./multiple-lists.component.css'],
+    changeDetection: ChangeDetectionStrategy.Eager,
     imports: [
     SortablejsDirective,
     JsonPipe

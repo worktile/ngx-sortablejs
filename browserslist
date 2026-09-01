@@ -4,15 +4,15 @@
 
 # You can see what browsers were selected by your queries by running:
 #   npx browserslist
-# https://web-platform-dx.github.io/web-features/supported-browsers/?widelyAvailableOnDate=2025-10-20&includeDownstream=false
+# Matches Angular 22 baseline: https://web-platform-dx.github.io/web-features/supported-browsers/?widelyAvailableOnDate=2026-05-07&includeDownstream=false
 
-chrome > 110
-edge > 110
-firefox > 111
-safari > 16.3
-ios_saf > 16.3
-and_chr >= 107
-and_ff >= 104
+chrome >= 119
+edge >= 119
+firefox >= 119
+safari >= 17
+ios_saf >= 17
+and_chr >= 119
+and_ff >= 119
 not dead
 not ie <= 11
 not op_mini all
