@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { JsonPipe } from '@angular/common';
 import { ChildComponentComponent } from './child-component/child-component.component';
 
@@ -6,6 +6,7 @@ import { ChildComponentComponent } from './child-component/child-component.compo
     selector: 'app-cross-components-multiple-lists',
     templateUrl: './cross-components-multiple-lists.component.html',
     styleUrls: ['./cross-components-multiple-lists.component.css'],
+    changeDetection: ChangeDetectionStrategy.Eager,
     imports: [ChildComponentComponent, JsonPipe]
 })
 export class CrossComponentsMultipleListsComponent {
