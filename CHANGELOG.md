@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+# [22.0.0](https://github.com/worktile/ngx-sortablejs/compare/21.0.0...22.0.0) (2026-09-09)
+
+
+### Bug Fixes
+
+* align browserslist with Angular 22 and refresh lockfiles ([05d689f](https://github.com/worktile/ngx-sortablejs/commit/05d689f4ec975bf0d18fe73f324d1d9a8bce3d32))
+* remove packageManager ([fcfa92e](https://github.com/worktile/ngx-sortablejs/commit/fcfa92e2472f360d5111c47d0e531cdb7d41e2b1))
+
+
+
 # [22.0.0-next.0](https://github.com/worktile/ngx-sortablejs/compare/21.0.0...22.0.0-next.0) (2026-09-01)
 
 
